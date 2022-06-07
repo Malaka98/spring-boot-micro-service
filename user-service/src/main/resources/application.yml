@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: USER-SERVICE
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8082/eureka
+  instance:
+    hostname: localhost
